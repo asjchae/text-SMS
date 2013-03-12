@@ -8,7 +8,8 @@ var express = require('express')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
-  , text = require('./routes/text');
+  , sendtext = require('./routes/sendTexts')
+  , gettext = require('./routes/getTexts');
 
 var app = express();
 
